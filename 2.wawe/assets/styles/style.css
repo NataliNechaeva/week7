@@ -1,0 +1,423 @@
+@media screen and (min-width: 1024px) {
+    .logonav {
+        font-size: 24px;
+    }
+    h1 {
+        font-size: 200px;
+    }
+    h2 {
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .aboutschool,.inschool,.navgal,.gal,.ourcom,.fieldset,.nav {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .aboutschool {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+    .inschool {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .gal {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 1rem;
+    }
+    #img1 {
+        grid-row: 1 / 2;
+        grid-column: 1 / 3;
+    }
+    #img2 {
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+    }
+    #img3 {
+        grid-row: 1 / 2;
+        grid-column: 4 / 5;
+    }
+    #img4 {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+    #img5 {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
+    #img6 {
+        grid-row: 2 / 3;
+        grid-column: 3 / 5;
+    } 
+    .ourcom {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    } 
+    .fieldset {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(7,1fr);
+        border: none;
+    }
+    
+    #labelname {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+    
+    #labelphone {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+    
+    #labeltext {
+        grid-row: 3 / 6;
+        grid-column: 1 / 2;
+    }
+    
+    .send {
+        grid-row: 6 / 7;
+        grid-column: 1 / 2;
+        height: 5vh;
+    }
+    .question {
+        grid-row: 1 / 3;
+        grid-column: 2 / 3;
+    }
+    
+    .phone {
+        grid-row: 3 / 5;
+        grid-column: 2 / 3;
+    }
+    
+    .address {
+        grid-row: 5 / 7;
+        grid-column: 2 / 3;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .logonav {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 150px;
+    }
+    h2 {
+        font-weight: 300;
+        font-size: 20px;
+    }
+    .aboutschool,.inschool,.navgal,.gal,.ourcom,.fieldset,.nav {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .aboutschool {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+    }
+    .inschool {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .gal {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 1rem;
+    }
+    #img1 {
+        grid-row: 1 / 2;
+        grid-column: 1 / 3;
+    }
+    #img2 {
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+    }
+    #img3 {
+        grid-row: 1 / 2;
+        grid-column: 4 / 5;
+    }
+    #img4 {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+    #img5 {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
+    #img6 {
+        grid-row: 2 / 3;
+        grid-column: 3 / 5;
+    }
+    .ourcom {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        } 
+    .fieldset {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(7,1fr);
+        border: none;
+    }
+    
+    #labelname {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+    
+    #labelphone {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+    
+    #labeltext {
+        grid-row: 3 / 6;
+        grid-column: 1 / 2;
+    }
+    
+    .send {
+        grid-row: 6 / 7;
+        grid-column: 1 / 2;
+        height: 5vh;
+    }
+    .question {
+        grid-row: 1 / 3;
+        grid-column: 2 / 3;
+    }
+    
+    .phone {
+        grid-row: 3 / 5;
+        grid-column: 2 / 3;
+    }
+    
+    .address {
+        grid-row: 5 / 7;
+        grid-column: 2 / 3;
+    }
+}
+@media screen and (max-width: 767px){
+    .logonav {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 100px;
+    }
+    h2 {
+        font-weight: 200;
+        font-size: 10px;
+    }
+    .aboutschool,.inschool,.navgal,.gal,.ourcom,.fieldset,.nav {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .aboutschool {
+        display: grid;
+        grid-template-rows: repeat(8,1fr);
+    }
+    .inschool {
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+    }
+    .gal {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+        gap: 1rem;
+    }
+    #img1 {
+        grid-row: 1 / 2;
+        grid-column: 1 / 3;
+    }
+    #img2 {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+    #img3 {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
+    #img4 {
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;
+    }
+    #img5 {
+        grid-row: 3 / 4;
+        grid-column: 2 / 3;
+    }
+    #img6 {
+        grid-row: 4 / 5;
+        grid-column: 1 / 3;
+    }
+    .ourcom {
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        } 
+    .com {
+        display: grid;
+        grid-template-rows: 1fr 4% 4%;
+    }
+ 
+    .fieldset {
+        display: grid;
+        grid-template-rows: repeat(7,1fr);
+        border: none;
+    }
+}
+.body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+div#backimg {
+    background-image: url("../images/wawe.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+.name {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-left {
+    margin-right: 10vw;
+}
+h2, h4, button, .logonav, .school, .work, .str, label, fieldset,.nav {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1,h3 {
+    font-family: 'Raleway', sans-serif;
+    max-width: 100%;
+    color: #0D302C;
+}
+.logonav {
+    color:#00FF00;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.logonav:hover {
+    color: #0D302C;
+}
+label {
+    color: #00B2A0;
+}
+.nav {
+    display: flex;
+}
+
+.article {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+h1 {
+    font-weight: bold;
+    line-height: 235px;
+    line-height: 100%;
+    letter-spacing: 0.6px;
+    align-self: center;
+}
+
+h2 {
+    color: #000000;
+    color: #0D302C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3 {
+    font-weight: 100;
+    color: #01353E;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.school {
+    font-weight: lighter;
+    font-size: 14px;
+    color: #242121;
+    margin-top: 1vh;
+}
+.work {
+    font-size: 14px;
+    color: #242121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.str {
+    font-weight: bold;
+    font-size: 2em;
+    color: #242121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.imgS {
+    margin-left: 5vw;
+}
+.navgal {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+#img1,#img2,#img3,#img4,#img5,#img6,#ourimg1,#ourimg2,#ourimg3 {
+    width: 100%;
+}
+#img1,#img2,#img3,#img4,#img5,#img6 {
+    height: 100%;
+}
+
+button {
+    color: #242121;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+button:focus { color: red; }
+button:active { color: green; }
+
+.send, .question, .phone, .address {
+    font-size: 24px;
+    color: #242121;
+}
+.question, .phone, .address {
+    background-color: #F8F8F8;
+}
+.nav {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: #242121;
+}
+.addnav {
+    color: #00B2A0;
+    font-size: 1em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
